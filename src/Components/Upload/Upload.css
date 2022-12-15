@@ -1,0 +1,48 @@
+  .upload-form {
+    font-size: 18px;
+    background-color: #fff;
+    margin: 0px auto;
+    /* padding: 50px; */
+    border-radius: 20px;
+    /* box-shadow: 5px 10px 18px gainsboro; */
+    width: 50%;
+    text-align: center;
+  }
+  
+.input-div {
+    margin: 5px auto;
+  }
+  
+  .input-div input {
+    padding: 3px;
+    /* font-size: 17px; */
+  }
+  
+  .input-div label {
+    font-size: 22px;
+  }
+  input{
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    text-align: center;
+  }
+  textarea{
+    text-align: center;
+  }
+  #blah{
+    height: 18rem;
+  }
+  /* .btn{
+    margin-: 2px 5px;
+  } */
+  
+  @media only screen and (max-width: 992px){
+    .upload-form{
+      width: 90%;
+    }
+    input,textarea{
+      width: 80vw;
+    }
+  }
+  

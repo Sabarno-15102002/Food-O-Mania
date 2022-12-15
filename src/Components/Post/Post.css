@@ -1,0 +1,68 @@
+.post{
+    border: 1px solid gainsboro;
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    margin: 12px auto;
+    border-radius: 10px;
+    padding: 3%;
+}
+.post img{
+    height: 18rem;
+}
+.like{
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.like span{
+    font-size: 22px;
+    margin-left: 5px;
+}
+p span{
+    color: blueviolet;
+    cursor: pointer;
+}
+.dropbtn {
+    color: grey;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(221, 221, 221);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+  @media only screen and (max-width: 992px){
+    .post{
+      width: 90%;
+    }
+    .post img{
+      height: 200px;
+    }
+    .dropdown-content{
+      right: 20px;
+    }
+  }
